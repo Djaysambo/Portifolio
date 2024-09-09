@@ -5,22 +5,18 @@ export const Contactos = () => {
   return (
     <>
       <Header />
-      <div
-        className="hero min-h-screen"
-        style={{
-          backgroundImage: "url('https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp')"
-        }}
-      >
-        <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-neutral-content text-center">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-            <p className="mb-5">Hello I am vicente sambo, I’m 21 years old.
- I have a degree in the area of Customer Service 
-Customer and Sales, English and Digital Skills.
- Currently a student at bytes4future in the area of Programming
-            </p>
-          </div>
+      <div className="flex">
+        <div className="flex-shrink-0"> {/* Mantém o tamanho da imagem */}
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp"
+            alt="Contact Us"
+          />
+        </div>
+        <div className="flex-1 p-4"> {/* Permite que o texto ocupe o restante do espaço */}
+          <h1 className="text-5xl font-bold">Hello there</h1>
+          <p className="mb-5">
+            {/* Seu texto aqui */}
+          </p>
         </div>
       </div>
       <Footer />
