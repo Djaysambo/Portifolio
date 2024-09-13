@@ -17,7 +17,7 @@ export const NavBar = () => {
           `${isActive ? activeStyles : inactiveStyles}`}>Contactos</NavLink>
 
         <NavLink to ='/sobre-nos' className={({ isActive }) =>
-          `${isActive ? activeStyles : inactiveStyles}`}>Sobre</NavLink>
+          `${isActive ? activeStyles : inactiveStyles}`}>Portifolio</NavLink>
     </nav>
     </>
   )
