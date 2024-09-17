@@ -12,12 +12,11 @@ export const NavBar = () => {
     <nav className='space-x-6 '>
         <NavLink to ='/' className={({ isActive }) =>
           `${isActive ? activeStyles : inactiveStyles}`}>Home</NavLink>
+        <NavLink to ='/curriculo' className={({ isActive }) =>
+          `${isActive ? activeStyles : inactiveStyles}`}>Currículo</NavLink>
 
-        <NavLink to ='/contactos' className={({ isActive }) =>
-          `${isActive ? activeStyles : inactiveStyles}`}>Contactos</NavLink>
-
-        <NavLink to ='/sobre-nos' className={({ isActive }) =>
-          `${isActive ? activeStyles : inactiveStyles}`}>Portifolio</NavLink>
+        <NavLink to ='/projectos' className={({ isActive }) =>
+          `${isActive ? activeStyles : inactiveStyles}`}>Porjetos</NavLink>
     </nav>
     </>
   )
