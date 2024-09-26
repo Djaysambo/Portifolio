@@ -6,29 +6,17 @@ export const MeusProjectos = () => {
   return (
     <>
       <Header/>
-      <div className='font-bold flex '>
+      <div className='font-bold flex m-3'>
          <div>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
            Accusantium repellat,
            aspernatur adipisci saepe aliquam libero optio molestias officiis
            blanditiis recusandae eius aut aperiam nam distinctio voluptatem molestiae in? Eaque, eum.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Accusantium repellat,
-           aspernatur adipisci saepe aliquam libero optio molestias officiis
-           blanditiis recusandae eius aut aperiam nam distinctio voluptatem molestiae in? Eaque, eum.</p>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Accusantium repellat,
-          aspernatur adipisci saepe aliquam libero optio molestias officiis
-          blanditiis recusandae eius aut aperiam nam distinctio voluptatem molestiae in? Eaque, eum.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Accusantium repellat,
-          aspernatur adipisci saepe aliquam libero optio molestias officiis
-          blanditiis recusandae eius aut aperiam nam distinctio voluptatem molestiae in? Eaque, eum.</p>
-        </div>
-        <img src="public/3.jpeg" alt="" width={200} height={200}/>
+      </div>
+        <img src="public/3.jpeg" alt="" width={100} height={100}/>
       
         </div>
-        <div className='font-bold flex'>
+        <div className='font-bold flex m-2'>
           <div >
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
           

@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 export const NavBar = () => {
 
-  const activeStyles = "text-red-500";
+  const activeStyles = "text-green-300";
   const inactiveStyles = "text-white";
 
 
