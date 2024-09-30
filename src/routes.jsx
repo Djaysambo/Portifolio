@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 
 
-import {Home} from './components/pages/Home'
-import {Contactos} from './components/pages/curriculo'
-import {ErrorPage} from './components/pages/error-Page'
-import { MeusProjectos} from "./components/pages/projectos";
+import {Home} from './pages/Home'
+import {Contactos} from './pages/curriculo'
+import {ErrorPage} from './pages/error-Page'
+import { MeusProjectos} from "./pages/projectos";
 
 
 
