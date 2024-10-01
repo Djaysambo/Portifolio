@@ -9,7 +9,6 @@ export const MeusProjectos = () => {
       <Header className='static'/>
       <div className=' float-start justify-start'>
         <Home/>
-        <Home/>
       </div>
       <Footer/>
     </>
